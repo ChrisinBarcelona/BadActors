@@ -11,13 +11,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to Bad Actors Studio!" />
+        <Header title="Welcome to Bad Actors Studio." />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+          Get started by pressing <button type="submit" onclick="window.location.href='https://buy.stripe.com/bIYg0g28l3fZ11KaEH';" >Sign up now</button>
 
-      <Footer />
+        </p>
+
+      </main>
     </div>
   )
+
 }
